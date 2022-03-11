@@ -61,8 +61,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final List<Transaction> _userTransactions = [
-  ];
+  final List<Transaction> _userTransactions = [];
   bool _showChart = false;
 
   Iterable<Transaction> get _recentTranactions {
