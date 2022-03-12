@@ -19,6 +19,7 @@ class _NewTranscationState extends State<NewTranscation> {
   final _titleController = TextEditingController();
   final _amountController = TextEditingController();
   DateTime? _selectedDate;
+
   String? _submitData() {
     if (_amountController.text.isEmpty) {
       return null;
